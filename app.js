@@ -113,6 +113,6 @@ app.use((err, req, res, next) => {
   // res.send("something went wrong");
 });
 
-app.listen(10000, () => {
-  console.log("Server is running on port 10000");
+app.listen(4000, () => {
+  console.log("Server is running on port 4000");
 });
