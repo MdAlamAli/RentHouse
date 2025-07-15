@@ -113,6 +113,6 @@ app.use((err, req, res, next) => {
   // res.send("something went wrong");
 });
 
-app.listen(8080, () => {
-  console.log("Server is running on port 8080");
+app.listen(10000, () => {
+  console.log("Server is running on port 10000");
 });
